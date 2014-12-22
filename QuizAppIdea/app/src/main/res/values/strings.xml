@@ -7,5 +7,15 @@
     <string name="edit_message">Enter a message</string>
     <string name="button_send">Send</string>
     <string name="title_activity_display_message">My Message</string>
+    <string name="title_activity_main_menu">Main Menu</string>
+    <string name="main_menu_welcome">Welcome! Select an option.</string>
+    <string name="main_menu_create_new_quiz">Create New Quiz</string>
+    <string name="main_menu_edit_existing_quiz">Edit Existing Quiz</string>
+    <string name="main_menu_take_quiz_on">Take Quiz On</string>
+    <string name="main_menu_options">Options</string>
+    <string name="main_menu_close">Close app</string>
+    <string name="title_activity_under_construction">Not Finished Yet!</string>
+    <string name="under_construction_sorry">Sorry! This feature is still under construction!</string>
+    <string name="return_to_main_menu">Return to Main Menu</string>
 
 </resources>
