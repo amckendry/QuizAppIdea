@@ -1,4 +1,4 @@
 <menu
     xmlns:tools="http://schemas.android.com/tools"
-    tools:context="com.amckendry.quizappidea.MainMenuActivity">
+    tools:context="com.amckendry.quizappidea.ui.MainMenuActivity">
 </menu>

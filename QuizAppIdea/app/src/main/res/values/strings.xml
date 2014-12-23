@@ -17,5 +17,6 @@
     <string name="title_activity_under_construction">Not Finished Yet!</string>
     <string name="under_construction_sorry">Sorry! This feature is still under construction!</string>
     <string name="return_to_main_menu">Return to Main Menu</string>
+    <string name="title_activity_create_quiz">CreateQuizActivity</string>
 
 </resources>

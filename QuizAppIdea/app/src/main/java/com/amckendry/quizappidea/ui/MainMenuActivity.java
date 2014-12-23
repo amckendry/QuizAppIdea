@@ -1,26 +1,28 @@
-package com.amckendry.quizappidea;
+package com.amckendry.quizappidea.ui;
 
+import android.content.Intent;
 import android.support.v7.app.ActionBarActivity;
 import android.os.Bundle;
 import android.view.Menu;
 import android.view.MenuItem;
 import android.view.View;
 
-import static com.amckendry.quizappidea.CommonActions.simplyNavigateTo;
+import com.amckendry.quizappidea.R;
 
-public class UnderConstructionActivity extends ActionBarActivity {
+
+public class MainMenuActivity extends ActionBarActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_under_construction);
+        setContentView(R.layout.activity_main_menu);
     }
 
 
     @Override
     public boolean onCreateOptionsMenu(Menu menu) {
         // Inflate the menu; this adds items to the action bar if it is present.
-        getMenuInflater().inflate(R.menu.menu_under_construction, menu);
+        getMenuInflater().inflate(R.menu.menu_main_menu, menu);
         return true;
     }
 
@@ -39,7 +41,14 @@ public class UnderConstructionActivity extends ActionBarActivity {
         return super.onOptionsItemSelected(item);
     }
 
-    public void sendToMainMenu(View view) {
-        simplyNavigateTo(MainMenuActivity.class, this);
+    public void sendToUnderConstruction(View view) {
+        CommonUIActions.simplyNavigateTo(UnderConstructionActivity.class, this);
+    }
+
+    public void closeApp(View view) {
+        Intent homeIntent = new Intent(Intent.ACTION_MAIN);
+        homeIntent.addCategory( Intent.CATEGORY_HOME );
+        homeIntent.setFlags(Intent.FLAG_ACTIVITY_CLEAR_TOP);
+        startActivity(homeIntent);
     }
 }

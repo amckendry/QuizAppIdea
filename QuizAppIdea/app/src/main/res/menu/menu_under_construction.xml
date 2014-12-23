@@ -1,4 +1,4 @@
 <menu
     xmlns:tools="http://schemas.android.com/tools"
-    tools:context="com.amckendry.quizappidea.UnderConstructionActivity">
+    tools:context="com.amckendry.quizappidea.ui.UnderConstructionActivity">
 </menu>
